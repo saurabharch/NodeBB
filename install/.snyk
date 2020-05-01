@@ -1,0 +1,42 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - archiver > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - async > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - benchpressjs > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - html-to-text > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - nodebb-plugin-emoji > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - archiver > archiver-utils > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - archiver > async > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - nodebb-plugin-emoji > async > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - nodebb-plugin-markdown > async > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - nodebb-plugin-mentions > async > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - archiver > zip-stream > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - benchpressjs > babel-types > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - benchpressjs > babel-generator > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - benchpressjs > node-cache > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - nodebb-plugin-dbsearch > async > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
+    - benchpressjs > babel-generator > babel-types > lodash:
+        patched: '2020-05-01T06:59:23.776Z'
