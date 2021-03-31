@@ -52,7 +52,7 @@
         "jimp": "0.2.28",
         "jquery": "^3.2.1",
         "jsesc": "2.5.1",
-        "json-2-csv": "^2.1.2",
+        "json-2-csv": "^3.6.1",
         "less": "^2.7.3",
         "lodash": "^4.17.10",
         "logrotate-stream": "^0.2.5",
