@@ -113,7 +113,7 @@
         "request": "2.88.2",
         "request-promise-native": "1.0.9",
         "requirejs": "2.3.6",
-        "rimraf": "3.0.2",
+        "rimraf": "4.0.0",
         "rss": "1.2.2",
         "sanitize-html": "2.7.0",
         "semver": "7.3.7",
